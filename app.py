@@ -20,7 +20,7 @@ class checkoutLink():
 		self.getProductLink()
 
 	def getProductLink(self):
-		webhook = DiscordWebhooks("https://discordapp.com/api/webhooks/673405122377809920/HCFgn_ceoOq-mH0dwzcYY77f8W-z0OyKtlPTfblkKqbV-E32Vcief8lQEXJb1yGcJl9o")
+		webhook = DiscordWebhooks("enter discord webhook")
 		response = self.s.get(self.link)
 		responseSoup = BeautifulSoup(response.text, "lxml")
 
